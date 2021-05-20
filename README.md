@@ -1,2 +1,2 @@
 # CRUD-Spring
-Crudo usando Kotlin e Spring
+Crud usando Kotlin e Spring
