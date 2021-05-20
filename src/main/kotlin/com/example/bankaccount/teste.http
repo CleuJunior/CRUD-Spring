@@ -1,0 +1,30 @@
+POST http://localhost:8080/accounts
+Content-Type: application/json
+
+
+{
+  "name": "Cleonildo Junior",
+  "document": "781"
+}
+
+
+###
+GET http://localhost:8080/accounts
+Content-Type: application/json
+
+###
+
+PUT http://localhost:8080/accounts/123
+Content-Type: application/json
+
+{
+  "name": "Atualizado com o PUT",
+  "document": "99812",
+  "balence": "100"
+}
+
+###
+DELETE http://localhost:8080/accounts/123
+Content-Type: application/json
+
+
